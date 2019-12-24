@@ -9,7 +9,11 @@ a:hover {color: #777; text-decoration: underline;}
 
 .popper {box-shadow: 0 0 6px rgba(0,0,0,0.3); position: absolute;}
 .popper > .triangle {border-top: 8px solid transparent; border-bottom: 8px solid #fff; border-left: 7px solid transparent; width: 0; height: 0; border-right: 7px solid transparent; position: absolute; top: -16px; left: 8px;}
-.popper > .content {padding: 0.75rem; min-width: 150px; background-color: #fff;}
+.popper > .content {padding: 0.75rem; background-color: #fff;}
+.popper > .content > div {padding: 0.5rem;}
+.popper > .content > div:hover {background-color: #ddd;}
+
+
 
 /* Header */
 .header {font-size: 0.875rem;}
@@ -22,8 +26,16 @@ a:hover {color: #777; text-decoration: underline;}
 
 .header-body {border-bottom: 1px solid #ddd;}
 .header-body > .wrapper {padding: 2rem 0; display: flex; justify-content: space-between; align-items: center;}
-.currency-wrap {display: flex; position: relative;}
+.currency-wrap {display: flex;}
 .currency-wrap > div {padding: 0.75rem 1rem; background-color: #ddd; margin-right: 0.5rem; cursor: pointer;}
+.currency {position: relative;}
+.currency .popper {top: 2.3rem; left: 0; display: none;}
+.currency .popper > .content {min-width: 150px;}
+.currency:hover .popper {display: block;}
+.country {position: relative;}
+.country .popper {top: 2.3rem; left: 0; display: none;}
+.country .popper > .content {min-width: 150px;}
+.country:hover .popper {display: block;}
 .search-wrap {position: relative;}
 .search {max-width: 200px; padding: 0.75rem; border: none; background-color: #ddd;}
 .search-wrap .fa-search {position: absolute; top: 0.875rem; right: 1rem;}
