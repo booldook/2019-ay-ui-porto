@@ -1,10 +1,14 @@
 /* Common */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px;}
+.wrapper {max-width: 980px; margin: 0 auto;}
 
 /* Header */
-
-
+.header {font-size: 0.875rem;}
+.header-top {border-bottom: 1px solid #ddd;}
+.header-top > .wrapper {padding: 0.75rem 0; display: flex; justify-content: space-between;}
+.nav-top-wrap {display: flex;}
+.nav-top-wrap > li {margin: 0 1rem;}
 /* Main */
 
 
