@@ -1,0 +1,25 @@
+/* Common */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px;}
+
+/* Header */
+
+
+/* Main */
+
+
+/* Footer */
+
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+}
