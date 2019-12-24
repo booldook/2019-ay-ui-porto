@@ -45,7 +45,8 @@ a:hover {color: #777; text-decoration: underline;}
 
 .header-nav {display: flex; justify-content: space-between; align-items: center; font-family: 'Oswald', sans-serif; font-size: 1rem;}
 .nav-wrap {display: flex;}
-.nav-wrap > li {padding: 1rem;}
+.nav-wrap > li {padding: 1rem; cursor: pointer;}
+.cart-wrap > div {padding: 1rem; cursor: pointer;}
 
 /* Main */
 
