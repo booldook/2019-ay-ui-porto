@@ -1,14 +1,34 @@
 /* Common */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px;}
+
+a:link, a:visited, a:active {color: inherit; text-decoration: none;}
+a:hover {color: #777; text-decoration: underline;}
+
 .wrapper {max-width: 980px; margin: 0 auto;}
+
+.popper {box-shadow: 0 0 6px rgba(0,0,0,0.3); position: absolute;}
+.popper > .triangle {border-top: 8px solid transparent; border-bottom: 8px solid #fff; border-left: 7px solid transparent; width: 0; height: 0; border-right: 7px solid transparent; position: absolute; top: -16px; left: 8px;}
+.popper > .content {padding: 0.75rem; min-width: 150px; background-color: #fff;}
 
 /* Header */
 .header {font-size: 0.875rem;}
+
 .header-top {border-bottom: 1px solid #ddd;}
 .header-top > .wrapper {padding: 0.75rem 0; display: flex; justify-content: space-between;}
 .nav-top-wrap {display: flex;}
 .nav-top-wrap > li {margin: 0 1rem;}
+.header-top .fa-chart-bar {margin-right: 0.25rem;}
+
+.header-body {border-bottom: 1px solid #ddd;}
+.header-body > .wrapper {padding: 2rem 0; display: flex; justify-content: space-between; align-items: center;}
+.currency-wrap {display: flex; position: relative;}
+.currency-wrap > div {padding: 0.75rem 1rem; background-color: #ddd; margin-right: 0.5rem; cursor: pointer;}
+.search-wrap {position: relative;}
+.search {max-width: 200px; padding: 0.75rem; border: none; background-color: #ddd;}
+.search-wrap .fa-search {position: absolute; top: 0.875rem; right: 1rem;}
+
+
 /* Main */
 
 
