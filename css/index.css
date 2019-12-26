@@ -103,7 +103,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .cate-wrap .cate-desc {color: #999; line-height: 1.75rem; 
 	padding: 1rem 2rem 2rem 2rem;}
 
-.prd-wrap {margin: 3rem auto;}
+.prd-wrap {margin: 3rem auto; overflow: hidden;}
 .prd-wrap > h2 {font-size: 2rem; font-weight: bolder; letter-spacing: -2px; padding: 2rem 0 3rem 0;}
 .prds {width: 200%; display: flex; justify-content: flex-start; align-items: flex-start;}
 .prd {flex: 11.5% 0 0; margin: 0 0.5%;}
