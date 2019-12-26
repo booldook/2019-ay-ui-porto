@@ -58,16 +58,24 @@ a:hover {color: #777; text-decoration: underline;}
 .search-wrap .fa-search {position: absolute; top: 0.875rem; right: 1rem; cursor: pointer;}
 .search-wrap .fa-search:hover {color: #f8f8f8;}
 
-.header-nav {display: flex; justify-content: space-between; align-items: center; font-family: 'Oswald', sans-serif; font-size: 1rem;}
+.header-nav {display: flex; justify-content: space-between; align-items: center; font-family: 'Oswald', sans-serif; font-size: 1rem;
+position: relative;}
 .nav-wrap {display: flex;}
-.nav-wrap > li {padding: 1rem; cursor: pointer; position: relative;}
+.nav-wrap > li {padding: 1rem; cursor: pointer;}
 .cart-wrap > div {padding: 1rem; cursor: pointer;}
-.snav-wrapper {background-color: #fff; box-shadow: 0 6px 6px rgba(0,0,0,0.3); padding: 1rem; display: none; justify-content: space-between; align-items: flex-start; font-family: 'Open sans', sans-serif; position: absolute; top: 40px; z-index: 10;}
+.snav-wrapper {background-color: #fff; box-shadow: 0 6px 6px rgba(0,0,0,0.3); padding: 1rem; display: none; justify-content: space-between; align-items: flex-start; font-family: 'Open sans', sans-serif; position: absolute; top: 40px; left: 0; z-index: 10;}
 .nav-wrap > li:hover .snav-wrapper {display: flex;}
-.snav-wrap > li {width: 200px; padding: 0.75rem; position: relative;}
+.snav-wrap > li {padding: 0.75rem; position: relative;
+white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
 .snav-wrap > li.title {font-weight: bold;}
 .snav-wrap .new-active {display: flex; align-items: center;}
-.snav-ad {width: 150px;}
+	/* snav-wrapper > li 의 크기 */
+	.snav-type1 .snav-wrap {width: 200px;}
+	.snav-type1 .snav-ad {width: 150px;}
+	.snav-type2 .snav-wrap {width: calc(33.3333% - 100px);}
+	.snav-type2 .snav-ad {width: 300px;}
+
 
 /* Main */
 

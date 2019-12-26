@@ -33,6 +33,10 @@ img {
 	float: right;
 }
 
+.rel {position: relative;}
+.abs {position: absolute;}
+.fix {position: fixed;}
+
 
 /* 반응형 이미지 */
 .img {
