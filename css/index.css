@@ -131,7 +131,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .prd-img:hover .prd-quick {opacity: 1;}
 
 /* Section: watch-section */
-.watch-section {height: 35vh; background: url('../img/parallax_img_new.jpg') no-repeat center; background-size: cover; background-attachment: fixed;}
+.watch-section {height: 35vh;}
 .watch-section > .wrapper {height: 100%;}
 
 
