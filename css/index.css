@@ -97,7 +97,8 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 /* Section: grey-wrap */
 .grey-wrap {background-color: #eee; margin-top: 1rem; padding: 1rem;}
 .cate-wrap {display: flex; justify-content: space-between; align-items: flex-start;}
-.cate-wrap > li {flex: 31% 0 0; background-color: #fff; text-align: center;}
+.cate-wrap > li {flex: 31% 0 0; background-color: #fff; text-align: center; transition: all 0.5s;}
+.cate-wrap > li:hover {box-shadow: 0 8px 32px rgba(0,0,0,0.3);}
 .cate-wrap .cate-tit {padding: 2rem 0; font-size: 2rem; font-family: 'Oswald', sans-serif;}
 .cate-wrap .cate-desc {color: #999; line-height: 1.75rem; 
 	padding: 1rem 2rem 2rem 2rem;}
