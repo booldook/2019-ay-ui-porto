@@ -111,18 +111,23 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .prd-detail > span {
 	cursor: pointer; transition: all 0.5s; opacity: 0.7;}
 .prd-detail > span:hover {opacity: 1;}
-.prd-price {font-size: 2rem; font-weight: bold;}
+.prd-price {font-size: 1.5rem; font-family: 'Oswald', sans-serif;}
+.prd-price > .price1 {color: #999; text-decoration: line-through; margin-right: 1rem;}
 
 .prd .prd-new {position: absolute; color: #f8f8f8; font-size: 1rem; font-weight: bold; padding: 0.5rem 0.75rem; background-color: #ee8383; right: 1rem; top: 1rem;}
 .prd .prd-sale {position: absolute; color: #f8f8f8; font-size: 1rem; font-weight: bold; padding: 0.5rem 0.75rem; background-color: #70c057; right: 1rem; top: 3.5rem;} 
-.prd-basket {position: absolute; cursor: pointer; 
-	width: 40px; height: 40px; 
+.prd .prd-basket {position: absolute; cursor: pointer; 
+	width: 40px; height: 40px; opacity: 0;
 	text-align: center; line-height: 38px;
 	font-size: 1.125rem; border-radius: 50%;
 	border: 1px solid #ccc; background-color: #fff; 
 	top: 1.5rem; right: 1.5rem; transition: all 0.5s;}
-.prd-basket:hover {background-color: #222; color: #f8f8f8;}
-.prd .prd-quick {position: absolute;}
+.prd .prd-basket:hover {background-color: #222; color: #f8f8f8;}
+.prd .prd-quick {position: absolute; left: 0; bottom: 0; width: 100%; padding: 1rem; text-align: center; color: #f8f8f8; background-color: rgba(0,0,0,0.7); font-size: 1.125rem; font-weight: bold; font-family: 'Oswald', sans-serif; letter-spacing: 1px; transition: all 0.5s; cursor: pointer; opacity: 0;}
+.prd .prd-quick:hover {background-color: #111;}
+
+.prd-img:hover .prd-basket {opacity: 1;}
+.prd-img:hover .prd-quick {opacity: 1;}
 
 
 
