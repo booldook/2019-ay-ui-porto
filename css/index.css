@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px;}
+html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px; height: 5000px;}
 
 a:link, a:visited, a:active {color: inherit; text-decoration: none;}
 a:hover {color: #777; text-decoration: underline;}
@@ -93,6 +93,14 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 #banner-prev {left: 3%;}
 #banner-next {right: 3%;}
 .bx-wrapper {box-shadow: none; -webkit-box-shadow: none; border: none;}
+
+/* Section: grey-wrap */
+.grey-wrap {background-color: #eee; margin-top: 1rem; padding: 1rem;}
+.cate-wrap {display: flex; justify-content: space-between; align-items: flex-start;}
+.cate-wrap > li {flex: 31% 0 0; background-color: #fff; text-align: center;}
+.cate-wrap .cate-tit {padding: 2rem 0; font-size: 2rem; font-family: 'Oswald', sans-serif;}
+.cate-wrap .cate-desc {color: #999; line-height: 1.75rem; 
+	padding: 1rem 2rem 2rem 2rem;}
 
 
 
