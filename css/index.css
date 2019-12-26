@@ -92,6 +92,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .btn-banner {font-size: 3rem; color: #f8f8f8; position: absolute; top: 50%; transform: translateY(-50%);}
 #banner-prev {left: 3%;}
 #banner-next {right: 3%;}
+.bx-wrapper {box-shadow: none; -webkit-box-shadow: none; border: none;}
 
 
 
