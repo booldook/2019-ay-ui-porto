@@ -37,6 +37,8 @@ a:hover {color: #777; text-decoration: underline;}
 .banner-panel.type2 {top: 50%; left: 5%; transform: translateY(-50%);}
 .banner-panel.type3 {top: 40%; left: 0;}
 
+h2.section-tit {font-size: 2rem; font-weight: bolder; letter-spacing: -2px; padding: 2rem 0 3rem 0;}
+
 
 
 /* Header */
@@ -105,7 +107,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 	padding: 1rem 2rem 2rem 2rem;}
 
 .prd-wrap {margin: 3rem auto; overflow: hidden;}
-.prd-wrap > h2 {font-size: 2rem; font-weight: bolder; letter-spacing: -2px; padding: 2rem 0 3rem 0;}
+
 .prds {width: 200%; display: flex; justify-content: flex-start; align-items: flex-start;}
 .prd {flex: 11.5% 0 0; margin: 0 0.5%;}
 .prd-detail {display: flex; justify-content: space-between; align-items: center; font-size: 1.25rem; padding: 1.5rem 0;}
@@ -134,7 +136,8 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .watch-section {height: 35vh;}
 .watch-section > .wrapper {height: 100%;}
 
-
+/* Section: new-section */
+.new-section {margin: 5rem auto 3rem auto;}
 
 
 /* Footer */
