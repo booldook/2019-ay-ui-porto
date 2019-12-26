@@ -1,5 +1,5 @@
 /* Common */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
 html, body {font-family: 'Open Sans', sans-serif; color: #222; font-size: 13px; height: 5000px;}
@@ -103,8 +103,15 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .cate-wrap .cate-desc {color: #999; line-height: 1.75rem; 
 	padding: 1rem 2rem 2rem 2rem;}
 
-
-
+.prd-wrap {margin: 3rem auto;}
+.prd-wrap > h2 {font-size: 2rem; font-weight: bolder; letter-spacing: -2px; padding: 2rem 0 3rem 0;}
+.prds {width: 200%; display: flex; justify-content: flex-start; align-items: flex-start;}
+.prd {flex: 11.5% 0 0; margin: 0 0.5%;}
+.prd-detail {display: flex; justify-content: space-between; align-items: center; font-size: 1.25rem; padding: 1.5rem 0;}
+.prd-detail > span {
+	cursor: pointer; transition: all 0.5s; opacity: 0.7;}
+.prd-detail > span:hover {opacity: 1;}
+.prd-price {font-size: 2rem; font-weight: bold;}
 /* Footer */
 
 
