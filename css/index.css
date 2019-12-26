@@ -81,6 +81,18 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 
 
 /* Main */
+.banner-wrap {position: relative; font-family: 'Oswald', sans-serif;}
+.banner {position: absolute;}
+.banner-panel {position: absolute; background-color: #111; color: #f8f8f8; padding: 3rem;}
+.banner-panel > h2 {font-size: 2.5rem;}
+.banner-panel > h2, .banner-panel > h3 {margin-bottom: 1rem;}
+.banner-panel .btn-black {border: 1px solid #aaa;}
+.banner-panel.type1 {top: 50%; right: 5%; transform: translateY(-50%);}
+.banner-panel.type2 {top: 50%; left: 5%; transform: translateY(-50%);}
+.btn-banner {font-size: 3rem; color: #f8f8f8; position: absolute; top: 50%; transform: translateY(-50%);}
+#banner-prev {left: 3%;}
+#banner-next {right: 3%;}
+
 
 
 /* Footer */
