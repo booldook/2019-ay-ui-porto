@@ -108,7 +108,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 
 .prd-wrap {margin: 3rem auto; overflow: hidden;}
 
-.prds {width: 200%; display: flex; justify-content: flex-start; align-items: flex-start;}
+.prds {width: 100%; display: flex; justify-content: flex-start; align-items: flex-start;}
 .prd {flex: 11.5% 0 0; margin: 0 0.5%;}
 .prd-detail {display: flex; justify-content: space-between; align-items: center; font-size: 1.25rem; padding: 1.5rem 0;}
 .prd-detail > span {
@@ -142,8 +142,13 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .new-wrap img {opacity: 0.8;}
 .new-wrap > .new-1 {flex: 39.4% 0 0; background-color: #000;}
 .new-wrap > .new-6 {flex: 60.6% 0 0; display: flex; align-items: flex-start; flex-wrap: wrap; padding-left: 0.5%;}
-.new-wrap > .new-6 > li {flex:32.3333% 0 0; margin: 0 0.5% 1% 0.5%; background-color: #000;}
+.new-wrap > .new-6 > li {flex:32.3333% 0 0; margin: 0 0.5% 1% 0.5%; background-color: #000; }
 
+.new-item {position: relative;}
+.new-hover {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); transition: all 0.5s;}
+.new-heart {width: 40px; height: 40px; border: 2px solid #f8f8f8; text-align: center; line-height: 38px; color: #f8f8f8; font-size: 1.5rem; position: absolute; top: 20px; right: 20px; border-radius: 50%; background-color: rgba(0,0,0,0.2); transition: all 0.5s; cursor: pointer;}
+.new-heart:hover {background-color: rgba(0,0,0,0.5);}
+.new-quick {font-family: Oswald, sans-serif; font-size: 1.25rem; padding: 0.75rem 0;}
 
 /* Footer */
 

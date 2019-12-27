@@ -8,18 +8,27 @@
 	<link rel="stylesheet" href="./css/fa.min.css">
 	<link rel="stylesheet" href="./css/animate.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	<link rel="stylesheet" href="./css/slick.css">
 	<link rel="stylesheet" href="./css/base.css">
 	<link rel="stylesheet" href="./css/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
 	<script src="./js/wow.min.js"></script>
 	<script src="./js/parallax.min.js"></script>
+	<script src="./js/slick.min.js"></script>
 	<script>
 	new WOW({offset: 200}).init();
 	$(document).ready(function(){
 		$('.slider').bxSlider({
 			mode: 'fade',
 			pager: false,
+		});
+		$('.prds').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 2000,
+			arrows: false,
 		});
 	});
 	</script>
@@ -437,26 +446,37 @@
 	<section class="new-section wrapper">
 		<h2 class="section-tit">NEW PRODUCTS</h2>
 		<div class="new-wrap">
-			<div class="new-1">
+			<div class="new-1 new-item">
 				<img src="./img/20_2_2.jpg" alt="제품" class="img">
+				<div class="new-hover">
+					<div class="new-heart"><i class="far fa-heart"></i></div>
+					<div class="new-quick">QUICKVIEW</div>
+					<div class="new-desc">
+						<div class="new-tit">Faux Leather High-Top Sneakers</div>
+						<div class="new-price">$12.80</div>
+					</div>
+				</div>
 			</div>
 			<ul class="new-6">
-				<li>
+				<li class="new-item">
 					<img src="./img/17_2_3.jpg" alt="제품" class="img">
+					<div class="new-hover">
+
+					</div>
 				</li>
-				<li>
+				<li class="new-item">
 					<img src="./img/08_4_13.jpg" alt="제품" class="img">
 				</li>
-				<li>
+				<li class="new-item">
 					<img src="./img/04_1_3_1.jpg" alt="제품" class="img">
 				</li>
-				<li>
+				<li class="new-item">
 					<img src="./img/03_3_1_1.jpg" alt="제품" class="img">
 				</li>
-				<li>
+				<li class="new-item">
 					<img src="./img/19_1_3.jpg" alt="제품" class="img">
 				</li>
-				<li>
+				<li class="new-item">
 					<img src="./img/18_3.jpg" alt="제품" class="img">
 				</li>
 			</ul>
