@@ -177,7 +177,7 @@ background-color: rgba(0,0,0,0.2); opacity: 0.8;}
 .footer .email-input {padding-left: 3rem;}
 .footer .fa-envelope {position: absolute; left: 10px; top: 14px; font-size: 1.25rem;}
 .footer .btn-send {padding: 0 2rem; border-left: 1px solid #666;}
-
+.footer .btn-sns {width: 3.5rem; height: 3.5rem; line-height: 3.5rem; text-align: center; border: none; font-size: 1.5rem; background-color: #333; color: #f8f8f8;}
 
 
 /* Responsive */
