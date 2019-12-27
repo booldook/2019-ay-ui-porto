@@ -36,6 +36,7 @@ a:hover {color: #777; text-decoration: underline;}
 .banner-panel.type1 {top: 50%; right: 5%; transform: translateY(-50%);}
 .banner-panel.type2 {top: 50%; left: 5%; transform: translateY(-50%);}
 .banner-panel.type3 {top: 40%; left: 0;}
+.banner-panel.type4 {top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 7rem 4rem 5rem 4rem; text-align: center;}
 
 h2.section-tit {font-size: 2rem; font-weight: bolder; letter-spacing: -2px; padding: 2rem 0 3rem 0;}
 
@@ -158,6 +159,12 @@ background-color: rgba(0,0,0,0.2); opacity: 0.8;}
 .new-desc {position: absolute; color: #f8f8f8; left: 20px; bottom: 20px;width: calc(100% - 40px);}
 .new-tit {font-size: 1.25rem; padding: 1rem 0; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
 .new-price {font-size: 2rem; font-family: Oswald, sans-serif;}
+
+/* Section: insta-section */
+.insta-wrap {display: flex; flex-wrap: wrap; align-items: flex-start;}
+.insta-wrap > li {flex: 24% 0 0; margin: 0.5%;}
+
+
 
 /* Footer */
 
