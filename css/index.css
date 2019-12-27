@@ -137,7 +137,7 @@ white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 .watch-section > .wrapper {height: 100%;}
 
 /* Section: new-section */
-.new-section {margin: 5rem auto 3rem auto;}
+.new-section {padding: 5rem 0 3rem 0; background-color: #eee;}
 .new-wrap {display: flex; align-items: flex-start;}
 .new-wrap img {opacity: 0.8;}
 .new-wrap > .new-1 {flex: 39.4% 0 0; background-color: #000;}
